@@ -1,0 +1,52 @@
+﻿ @*Modal*@ 
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Edit Settings</h4>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-warning" role="alert" ng-show="showWarning">
+                    <label>{{ warningMessage }}</label>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <span class="input-group">
+                            <label>Lower Number:</label>
+                            <input type="number" ng-model="lowerNumber" ng-change="checkForWarnings()" />
+                        </span>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <span class="input-group">
+                            <label>Higher Number:</label>
+                            <input type="number" ng-model="higherNumber" ng-change="checkForWarnings()" />
+                        </span>
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <input type="text" class="form-control" ng-model="currentValue" maxlength="10" placeholder="Add item to validation list...">
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-primary" ng-click="addObject()">Add item</button>
+                    </span>
+                </div>
+                <br />
+                <br />
+                <div class="alert alert-info" role="alert">
+                    <b>Items to Evaluate:</b><br />
+                    <ul>
+                        <li ng-repeat="x in objectsToEvaluate track by $index">
+                            {{ x }}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-sm" ng-click="resetSettings()">Clear Items</button>
+                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

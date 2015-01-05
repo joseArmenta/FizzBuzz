@@ -1,0 +1,14 @@
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services.Interfaces\bin\Debug\BestBuy.Services.Interfaces.dll
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services.Interfaces\bin\Debug\BestBuy.Services.Interfaces.pdb
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services.Interfaces\bin\Debug\BestBuy.Models.dll
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services.Interfaces\bin\Debug\BestBuy.Models.pdb
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services.Interfaces\obj\Debug\BestBuy.Services.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services.Interfaces\obj\Debug\BestBuy.Services.Interfaces.dll
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services.Interfaces\obj\Debug\BestBuy.Services.Interfaces.pdb
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services.Interfaces\bin\Debug\BestBuy.Services.Interfaces.dll
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services.Interfaces\bin\Debug\BestBuy.Services.Interfaces.pdb
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services.Interfaces\bin\Debug\BestBuy.Models.dll
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services.Interfaces\bin\Debug\BestBuy.Models.pdb
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services.Interfaces\obj\Debug\BestBuy.Services.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services.Interfaces\obj\Debug\BestBuy.Services.Interfaces.dll
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services.Interfaces\obj\Debug\BestBuy.Services.Interfaces.pdb

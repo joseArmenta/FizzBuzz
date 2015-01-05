@@ -1,0 +1,22 @@
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Services.dll
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Services.pdb
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Models.dll
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Services.Interfaces.dll
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Utils.Extensions.dll
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Models.pdb
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Services.Interfaces.pdb
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Utils.Extensions.pdb
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services\obj\Debug\BestBuy.Services.csprojResolveAssemblyReference.cache
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services\obj\Debug\BestBuy.Services.dll
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Services\obj\Debug\BestBuy.Services.pdb
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Services.dll
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Services.pdb
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Models.dll
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Services.Interfaces.dll
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Utils.Extensions.dll
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Models.pdb
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Services.Interfaces.pdb
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services\bin\Debug\BestBuy.Utils.Extensions.pdb
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services\obj\Debug\BestBuy.Services.csprojResolveAssemblyReference.cache
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services\obj\Debug\BestBuy.Services.dll
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Services\obj\Debug\BestBuy.Services.pdb

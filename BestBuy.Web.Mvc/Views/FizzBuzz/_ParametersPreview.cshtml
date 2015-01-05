@@ -1,0 +1,60 @@
+﻿<div class="panel panel-info">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            Settings
+        </h3>
+        <button type="button" class="btn btn-info btn-sm pull-right glyphicon glyphicon-cog marginTop-20" data-toggle="modal" data-target="#myModal" title="Edit Settings"></button>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <td>
+                        <label>Lower Number</label>
+                    </td>
+                    <td>
+                        <label>Higher Number</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        {{lowerNumber}}
+                    </td>
+                    <td>
+                        {{higherNumber}}
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Items to Evaluate</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li ng-repeat="x in objectsToEvaluate track by $index">
+                                {{ x }}
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+        @*<div class="row">
+                <div class="col col-lg-6">
+                    <label>Items to Evaluate:</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li ng-repeat="x in objectsToEvaluate track by $index">
+                            {{ x }}
+                        </li>
+                    </ul>
+                </div>
+            </div>*@
+    </div>
+</div>

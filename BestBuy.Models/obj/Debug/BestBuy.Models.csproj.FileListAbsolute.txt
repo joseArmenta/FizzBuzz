@@ -1,0 +1,9 @@
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Models\bin\Debug\BestBuy.Models.dll
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Models\bin\Debug\BestBuy.Models.pdb
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Models\obj\Debug\BestBuy.Models.csprojResolveAssemblyReference.cache
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Models\obj\Debug\BestBuy.Models.dll
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\FizzBuzz\BestBuy.Models\obj\Debug\BestBuy.Models.pdb
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Models\bin\Debug\BestBuy.Models.dll
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Models\bin\Debug\BestBuy.Models.pdb
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Models\obj\Debug\BestBuy.Models.dll
+C:\Users\Maria\Documents\GitHub\FizzBuzz\BestBuy.Models\obj\Debug\BestBuy.Models.pdb
