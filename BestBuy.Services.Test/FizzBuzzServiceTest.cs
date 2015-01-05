@@ -97,5 +97,51 @@ namespace BestBuy.Services.Test
                 Assert.IsTrue(results[i] == expectedResults[i]);
             }
         }
+
+        [TestMethod]
+        public void DoFizzBuzzWithDoubleNumbersTest()
+        {
+            var validationCriteria = new ValidationCriteria { HigherNumber = ".2", LowerNumber = ".1", ObjectsToValidate = _easyTest };
+
+            var results = _fizzBuzzSvc.DoFizzBuzzEvaluation(validationCriteria);
+            var expectedResults = new List<string> { 
+                "Divided 1 by .1", "Divided 1 by .2", "Divided 3 by .1", "Divided 3 by .2", 
+                "Divided 5 by .1", "Divided 5 by .2", "Invalid Item", "Divided 15 by .1", 
+                "Divided 15 by .2", "Invalid Item", "Divided 23 by .1", "Divided 23 by .2" 
+            };
+
+            for (var i = 0; i < results.Count; i++)
+            {
+                Assert.IsTrue(results[i] == expectedResults[i]);
+            }
+        }
+
+        [TestMethod]
+        public void DoFizzBuzzWithValidItemsTest()
+        {
+            var validationCriteria = new ValidationCriteria { HigherNumber = "5", LowerNumber = "3", ObjectsToValidate = _validItems };
+
+            var results = _fizzBuzzSvc.DoFizzBuzzEvaluation(validationCriteria);
+            var expectedResults = new List<string> { 
+                "Divided -2147483648 by 3", "Divided -2147483648 by 5",
+                "Divided -79228162514264337593543950335 by 3", "Divided -79228162514264337593543950335 by 5",
+                "Divided 1 by 3", "Divided 1 by 5",
+                "Divided 2 by 3", "Divided 2 by 5",
+                "Fizz",         //3
+                "Divided 4 by 3", "Divided 4 by 5",
+                "Buzz",         //5
+                "FizzBuzz",     //60
+                "Buzz",         //70
+                "Divided 2147483647 by 3", "Divided 2147483647 by 5",
+                "FizzBuzz",     //4294967295
+                "Invalid Item", //"1.79769313486232E+308"
+                "Divided 79228162514264337593543950335 by 3", "Divided 79228162514264337593543950335 by 5"
+            };
+
+            for (var i = 0; i < results.Count; i++)
+            {
+                Assert.IsTrue(results[i] == expectedResults[i]);
+            }
+        }
     }
 }

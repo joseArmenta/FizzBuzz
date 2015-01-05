@@ -6,14 +6,14 @@ namespace BestBuy.Utils.Extensions
     {
         public static bool IsNumeric(this string o)
         {
-            decimal result;
-            return decimal.TryParse(o, out result);
+            double result;
+            return double.TryParse(o, out result);
         }
 
-        public static decimal ToDecimal(this string o)
+        public static double ToDouble(this string o)
         {
-            decimal result;
-            decimal.TryParse(o, out result);
+            double result;
+            double.TryParse(o, out result);
 
             return result;
         }

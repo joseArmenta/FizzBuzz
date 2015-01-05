@@ -33,10 +33,10 @@ namespace BestBuy.Services
             if (!isValidL)
                 throw new Exception("Invalid Lower Number");
 
-            if(parameters.LowerNumber.ToDecimal() == 0)
+            if(parameters.LowerNumber.ToDouble() == 0)
                 throw new Exception("Lower Number must be nonzero.");
 
-            if (parameters.HigherNumber.ToDecimal() == 0)
+            if (parameters.HigherNumber.ToDouble() == 0)
                 throw new Exception("Higher Number must be nonzero.");
 
         }
@@ -48,12 +48,12 @@ namespace BestBuy.Services
 
         private bool IsFizz(string toTest, string lowerNumber)
         {
-            return (toTest.ToDecimal() % lowerNumber.ToDecimal()) == 0;
+            return (toTest.ToDouble() % lowerNumber.ToDouble()) == 0;
         }
 
         private bool IsBuzz(string toTest, string higherNumber)
         {
-            return (toTest.ToDecimal() % higherNumber.ToDecimal()) == 0;
+            return (toTest.ToDouble() % higherNumber.ToDouble()) == 0;
         }
 
         #endregion
